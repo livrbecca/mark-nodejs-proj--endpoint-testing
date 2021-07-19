@@ -50,6 +50,10 @@ app.get("/quest/accept", (req, res) => {
   });
 });
 
+// app.get("/quest/start/easy", (req, res)=>{
+//   res.json({})
+// })
+
 app.get("/quest/decline", (req, res) => {
   res.json({
     location: "Apocalypse",
